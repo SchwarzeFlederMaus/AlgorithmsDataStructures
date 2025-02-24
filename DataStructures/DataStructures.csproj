@@ -7,9 +7,4 @@
     <Nullable>disable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="Diagrams\" />
-    <Folder Include="LinkedList\" />
-  </ItemGroup>
-
 </Project>
