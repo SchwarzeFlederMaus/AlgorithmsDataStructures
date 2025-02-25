@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DataStructures.LinkedList
 {
-    internal class MyLinkedList<T> : IEnumerable<T>
+    public class MyLinkedList<T> : IEnumerable<T>
     {
         public Node<T> Head { get; set; }
         public Node<T> Tail { get; set; }
@@ -30,6 +30,7 @@ namespace DataStructures.LinkedList
             var newHead = new Node<T>(data);
             newHead.Next = Head;
             Head = newHead;
+            if (Count == 0) Tail = Head;
             Count++;
         }
         public void Add(T data)
