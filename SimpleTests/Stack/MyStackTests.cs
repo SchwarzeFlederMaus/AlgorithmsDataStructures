@@ -3,7 +3,7 @@ using DataStructures.Stack;
 using System;
 using System.Collections.Generic;
 
-namespace DataStructures.Tests
+namespace DataStructures.Tests.Stack
 {
     [TestClass]
     public class MyStackTests

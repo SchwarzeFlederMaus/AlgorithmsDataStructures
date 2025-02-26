@@ -2,7 +2,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using DataStructures.Stack;
 using System;
 
-namespace DataStructures.Tests
+namespace DataStructures.Tests.Stack
 {
     [TestClass]
     public class StackOnArrayTests

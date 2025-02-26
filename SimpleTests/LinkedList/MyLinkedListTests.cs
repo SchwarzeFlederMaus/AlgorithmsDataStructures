@@ -2,7 +2,7 @@ using DataStructures.LinkedList;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Collections.Generic;
 
-namespace SimpleTests.LinkedList
+namespace DataStructures.Tests.LinkedList
 {
     [TestClass]
     public sealed class MyLinkedListTests

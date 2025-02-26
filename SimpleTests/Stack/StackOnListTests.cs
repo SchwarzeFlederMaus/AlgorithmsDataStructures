@@ -3,7 +3,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Collections.Generic;
 
-namespace SimpleTests.Stack
+namespace DataStructures.Tests.Stack
 {
     [TestClass]
     public sealed class StackOnListTests
