@@ -33,7 +33,7 @@ namespace DataStructures.LinkedList
             _tail = newNode;
             Count++;
         }
-        public void Delete(T data)
+        public void Remove(T data)
         {
             if (data == null) throw new ArgumentNullException(nameof(data));
 

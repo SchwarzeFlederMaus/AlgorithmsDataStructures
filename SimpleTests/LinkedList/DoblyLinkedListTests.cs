@@ -1,6 +1,4 @@
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 using DataStructures.LinkedList;
-using System.Collections.Generic;
 
 namespace DataStructures.Tests.LinkedList
 {
@@ -77,7 +75,7 @@ namespace DataStructures.Tests.LinkedList
             list.Add(2);
 
             // Act
-            list.Delete(1);
+            list.Remove(1);
 
             // Assert
             Assert.AreEqual(1, list.Count);
