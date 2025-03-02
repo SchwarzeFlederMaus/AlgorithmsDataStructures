@@ -12,4 +12,8 @@
     <ProjectReference Include="..\DataStructures\DataStructures.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Set\" />
+  </ItemGroup>
+
 </Project>
