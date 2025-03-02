@@ -7,9 +7,9 @@ using System.Collections;
 Console.WriteLine("Start is here");
 
 
-var setA = new SetOnList<int>(new[]{ 1, 2, 3, 7, 6});
-var setB = new SetOnList<int>(new[]{ 7, 6, 9, 12, 15});
-var setC = new SetOnList<int>(new[] { 9, 12 });
+var setA = new MySet<int>(new[]{ 1, 2, 3, 7, 6});
+var setB = new MySet<int>(new[]{ 7, 6, 9, 12, 15});
+var setC = new MySet<int>(new[] { 9, 12 });
 
 Console.WriteLine("Set A:");
 foreach (var item in setA) Console.Write($"{item} ");

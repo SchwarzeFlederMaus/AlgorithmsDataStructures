@@ -8,11 +8,10 @@ namespace DataStructures.Set
         public int Count => _items.Count;
         public bool IsEmpty => Count == 0;
 
-        public bool IsReadOnly => throw new NotImplementedException();
+        public bool IsReadOnly => false;
+        public bool IsSynchronized => false;
+        public object SyncRoot => _items;
 
-        public bool IsSynchronized => throw new NotImplementedException();
-
-        public object SyncRoot => throw new NotImplementedException();
 
         public SetOnList() => Clear();
         public SetOnList(T item) => Add(item);
