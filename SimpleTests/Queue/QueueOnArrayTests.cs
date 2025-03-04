@@ -2,7 +2,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using DataStructures.Queue;
 using System;
 
-namespace DataStructures.Tests.Queue
+namespace Queue
 {
     [TestClass]
     public class QueueOnArrayTests

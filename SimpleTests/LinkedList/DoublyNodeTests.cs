@@ -1,7 +1,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using DataStructures.LinkedList;
 
-namespace DataStructures.Tests.LinkedList
+namespace LinkedList
 {
     [TestClass]
     public class DoublyNodeTests

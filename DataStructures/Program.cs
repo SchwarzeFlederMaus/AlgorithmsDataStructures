@@ -1,4 +1,5 @@
-﻿using DataStructures.Dictionary;
+﻿using DataStructures.BinarySearchTree;
+using DataStructures.Dictionary;
 using DataStructures.LinkedList;
 using DataStructures.Queue;
 using DataStructures.Set;
@@ -7,19 +8,32 @@ using System.Collections;
 
 Console.WriteLine("Start is here");
 
-var myDictionary = new MyDictionary<int, string>();
-myDictionary.Add(1, "One");
-myDictionary.Add(2, "Two");
-myDictionary.Add(3, "Three");
-myDictionary.Add(4, "Four");
-myDictionary.Add(5, "Five");
-myDictionary.Add(6, "Six");
+var MyBinarySearchTree = new MyBinarySearchTree<int>();
+MyBinarySearchTree.Add(5);
+MyBinarySearchTree.Add(3);
+MyBinarySearchTree.Add(8);
+MyBinarySearchTree.Add(7);
+MyBinarySearchTree.Add(4);
+MyBinarySearchTree.Add(1);
+MyBinarySearchTree.Add(6);
+MyBinarySearchTree.Add(9);
+MyBinarySearchTree.Add(2);
 
-Console.WriteLine("MyDictionary:");
-foreach (var item in myDictionary)
+foreach (var item in MyBinarySearchTree.InOrderTraversal())
 {
-    Console.WriteLine($"Key: {item.Key}, Value: {item.Value}");
+    Console.Write($"{item} ");
 }
+Console.WriteLine();
+foreach (var item in MyBinarySearchTree.PreOrderTraversal())
+{
+    Console.Write($"{item} ");
+}
+Console.WriteLine();
+foreach (var item in MyBinarySearchTree.PostOrderTraversal())
+{
+    Console.Write($"{item} ");
+}
+Console.WriteLine();
 
 Console.WriteLine("End is here");
 Console.ReadLine();

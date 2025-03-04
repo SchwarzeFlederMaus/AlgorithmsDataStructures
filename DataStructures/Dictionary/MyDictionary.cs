@@ -4,7 +4,7 @@ namespace DataStructures.Dictionary
 {
     public class MyDictionary<TKey, TValue> : IEnumerable<Node<TKey, TValue>>
     {
-        private const int INITIAL_SIZE = 5;
+        private const int INITIAL_SIZE = 100;
         private readonly List<TKey> _keys;
         private int _size;
         private Node<TKey, TValue>[] _items;
@@ -120,7 +120,7 @@ namespace DataStructures.Dictionary
             return false;
         }
 
-        private int GetHash(TKey key) => key.GetHashCode() % _size;
+        private int GetHash(TKey key) => Math.Abs(key.GetHashCode() % _size);
         private bool TryToAddInDictionary(TKey key, TValue value, int position)
         {
             if (_items[position] != null) return false; 

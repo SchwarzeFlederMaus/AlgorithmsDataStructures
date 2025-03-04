@@ -2,7 +2,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using DataStructures.HashTable;
 using System.Collections.Generic;
 
-namespace DataStructures.Tests.HashTable
+namespace HashTable
 {
     [TestClass]
     public class MyHashTableTests

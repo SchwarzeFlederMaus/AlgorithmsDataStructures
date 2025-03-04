@@ -2,7 +2,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using DataStructures.LinkedList;
 using System.Collections.Generic;
 
-namespace DataStructures.Tests.LinkedList
+namespace LinkedList
 {
     [TestClass]
     public class CircularListTests

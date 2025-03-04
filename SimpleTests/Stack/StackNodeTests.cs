@@ -1,7 +1,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using DataStructures.Stack;
 
-namespace DataStructures.Tests.Stack
+namespace Stack
 {
     [TestClass]
     public class StackNodeTests

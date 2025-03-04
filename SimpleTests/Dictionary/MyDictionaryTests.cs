@@ -3,7 +3,7 @@ using DataStructures.Dictionary;
 using System;
 using System.Collections.Generic;
 
-namespace DataStructures.Tests.Dictionary
+namespace Dictionary
 {
     [TestClass]
     public class MyDictionaryTests

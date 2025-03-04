@@ -2,7 +2,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using DataStructures.Set;
 using System.Collections.Generic;
 
-namespace DataStructures.Tests.Set
+namespace Set
 {
     [TestClass]
     public class SetOnListTests

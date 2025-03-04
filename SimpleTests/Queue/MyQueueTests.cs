@@ -3,7 +3,7 @@ using DataStructures.Queue;
 using System;
 using System.Collections.Generic;
 
-namespace DataStructures.Tests.Queue
+namespace Queue
 {
     [TestClass]
     public class MyQueueTests

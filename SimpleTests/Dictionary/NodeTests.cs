@@ -1,7 +1,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using DataStructures.Dictionary;
 
-namespace DataStructures.Tests.Dictionary
+namespace Dictionary
 {
     [TestClass]
     public class NodeTests

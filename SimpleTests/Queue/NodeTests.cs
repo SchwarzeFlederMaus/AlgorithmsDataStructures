@@ -1,7 +1,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using DataStructures.Queue;
 
-namespace DataStructures.Tests.Queue
+namespace Queue
 {
     [TestClass]
     public class NodeTests
