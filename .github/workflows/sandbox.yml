@@ -1,0 +1,13 @@
+name: Sanbox Manual Run
+on: 
+  workflow_dispatch: 
+
+jobs:
+  TestJob:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+      
+      - name: Run sanbox script
+        run: echo "Workflow run manually!"
